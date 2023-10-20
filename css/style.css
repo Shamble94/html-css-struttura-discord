@@ -3,6 +3,11 @@
     margin:0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+    min-height: 100%;
+    flex-wrap: wrap ;
+}
 header{
     padding: 10px;
 }
@@ -11,7 +16,7 @@ header{
     background-color:lightblue;
     
 }
-/* primo container */
+/* SECONDO  BLOCO */
 .containerhead{
     display:flex;
     background-color: #daa520;
@@ -53,6 +58,7 @@ ul{
 
 /* SECONDO BLOCCO */
 .containerblu{
+    width: 100%;
     height:300px;
     background-color: rgb(2, 2, 120);
     display: flex;
@@ -61,15 +67,16 @@ ul{
 }
 .rosa{
     display:flex;
-    background-color: rgb(203, 96, 96);
+    background-color: rgb(230, 106, 106);
     height:250px;
     width: 50%;
     border: 1px dotted black;
 }
 
-/* TERZO BLOCCO */
+
+/* TERZO E QUINTO BLOCCO */
 .containerbianco{
-    width: 1800px;
+    width: 100%;
     height:300px;
     background-color: #fff;
     display: flex;
@@ -77,7 +84,7 @@ ul{
     justify-content: center;
 }
 .col-50{
-    background-color: cyan;
+    background-color: rgb(8, 66, 225);
     width: 50%;
     border: 1px dotted black;
     height:250px;
@@ -88,4 +95,43 @@ ul{
     width: 25%;
     border: 1px dotted black;
     height:250px;
+}
+
+
+/* Quarto blocco */
+.containergrigio{
+    width: 100%;
+    height:300px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-50 .containergrigio{
+    background-color: cyan;
+    width: 50%;
+    border: 1px dotted black;
+    height:250px;
+}
+
+.col-25 .containergrigio{
+    background-color: pink;
+    width: 25%;
+    border: 1px dotted black;
+    height:250px;
+}
+
+/* SESTO BLOCCO */
+.containerchiaro{
+    height:900px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.verde{
+    height:850px;
+    background-color: darkgreen;
+    width: 76%;
 }
